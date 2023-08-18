@@ -1,18 +1,18 @@
 let about = document.getElementById('about');
 about.addEventListener('click',()=>{
-    window.location="/new portfolio/portfolio.html#aboutme";
+    window.location="portfolio.html#aboutme";
 })
 let techstack = document.getElementById('stack');
 techstack.addEventListener('click',()=>{
-    window.location="/new portfolio/portfolio.html#tech"
+    window.location="portfolio.html#tech"
 })
 let project = document.getElementById('pro');
 project.addEventListener('click',()=>{
-    window.location="/new portfolio/portfolio.html#proj"
+    window.location="portfolio.html#proj"
 })
 let contact = document.getElementById('cont');
 contact.addEventListener('click',()=>{
-    window.location="/new portfolio/portfolio.html#conta"
+    window.location="portfolio.html#conta"
 })
 let xogame = document.getElementById('xoredirect')
 xogame.addEventListener('click',()=>{
