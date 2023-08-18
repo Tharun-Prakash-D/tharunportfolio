@@ -1,0 +1,230 @@
+body
+{
+    width:100%;
+    height:100%;
+    margin:0px;
+    background-color:#151617;
+}
+.aboutme
+{
+    background-color:#151617;
+    height:500px;
+    color: rgb(165, 25, 25);
+    margin-bottom: 10vh;;
+}
+.section h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size:1.1em;
+    display: flex;
+    width:25vw;
+    height:5vh;
+    border:1px solid rgb(137, 124, 124);
+    color:white;
+}
+.section{
+    margin:0px;
+    position: fixed;
+    width:100vw;
+    height:5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about:hover,#stack:hover,#pro:hover,#cont:hover
+{
+    transition: ease-in;
+    transition-duration: 500ms;
+    background-color: rgba(255,255,255,0.2);
+}
+.image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:250px;
+}
+.image img{
+    width:150px;
+    margin-top: 10vh;
+    height:150px;
+    border-radius: 50%;;
+    object-fit: cover;
+}
+.name{
+    width:100%;
+    height:20vh;
+    font-family: monospace;
+    font-size: 1.1em;
+    margin-top: 10vh;
+    margin-bottom: 10vh;;
+}
+.name h3,h2
+{
+    font-family: monospace;
+    text-align: center;
+    color: rgb(245, 243, 243);
+}
+.Techstack
+{
+    overflow-x:visible;
+    overflow-y: hidden;
+    white-space: nowrap;
+    &::-webkit-scrollbar {
+        display: none;
+      }
+}
+.Techstack h2{
+    
+    text-align: center;
+}
+.lang
+{
+    display: inline-block;
+    width:100px;
+    height:80px;
+    margin: 5vw;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgba(114, 112, 109, 0.284);
+    font-family: monospace;
+    font-size: 1.2em;
+    text-align: center;
+    color: rgb(254, 254, 254);
+}
+.lang h3
+{
+    font-weight: 200;
+    position: relative;
+    top:10px;
+}
+.lang:hover
+{
+    transition: ease-in;
+    transition-duration: 500ms;
+    background-color: rgba(255,255,255,0.2);
+    transform: scale(1.2);
+}
+.project
+{
+    width:100vw;
+    height:fit-content;
+    margin-bottom:10vh;
+    margin-top: 5vh;
+}
+.project .cargame
+{
+    padding:3vw;
+    margin-left: 5vw;
+    width: 350px;
+    height:fit-content;
+    max-height:85vh;
+    background-color: rgba(255,255,255,0.1);
+    border-radius:15px;
+}
+.cargame img
+{
+    height: 20vw;
+    width:20vw;
+    margin:auto;
+    object-fit: cover;
+    border-radius: 10px;
+    border:1px solid aliceblue;
+}
+.project .title1
+{
+    color: white;
+    font-family: cursive;
+    font-size: 1.5em;
+    text-align: center;
+}
+.image1
+{
+    display: flex;
+}
+.cargame{
+    font-size: 1em;
+    font-family: monospace;
+    color: white;
+}
+.lanused1
+{
+    padding: 5px;
+    width:fit-content;
+    height:fit-content;
+    display: flex;
+    color: white;
+}
+.lanused1 h3
+{
+    width:fit-content;
+    padding: 5px;
+    margin-right: 5vw;;
+    background-color: rgba(236, 233, 233, 0.1);
+    color: white;
+}
+.cargame a,h4
+{
+    font-size: 1.1em;
+    font-family: monospace;
+    text-decoration: none;
+    color: white;
+}
+.XOgame
+{
+    padding:3vw;
+    color: white;
+    margin-left: 5vw;
+    width: 350px;
+    height:fit-content;
+    max-height:85vh;
+    background-color: rgba(255,255,255,0.1);
+    border-radius:15px;
+    font-size: 1em;
+    font-family: monospace;
+    overflow-x:visible;
+    overflow-y: visible;
+    white-space: nowrap;
+    &::-webkit-scrollbar {
+        display: none;
+      }
+}
+.XOgame img
+{
+    height: 20vw;
+    width:20vw;
+    margin:auto;
+    border-radius: 10px;
+    border:1px solid aliceblue;
+}
+.project
+{
+    overflow-x:visible;
+    overflow-y: hidden;
+    white-space: nowrap;
+    &::-webkit-scrollbar {
+        display: none;
+      }
+}
+.project 
+{
+    display: flex;
+}
+.link h3,a
+{
+    margin-left: 5vw;;
+    font-family: monospace;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white;
+}
+.tech{
+    margin-top: 5vh;
+}
+.cargame:hover,.XOgame:hover{
+    transition: ease-in;
+    transition-duration: 500ms;
+    background-color: rgba(255,255,255,0.2);
+}
